@@ -45,7 +45,7 @@ Option details are given further below.
 | [`ENABLE_RELATIVE_LIBPATH`](#enable_relative_libpath)        | 1.3.2 | `BOOL`    | OFF        | Enables adding a relative path to a library for linking against a shared SRT library by reaching out to a sibling directory.  |
 | [`ENABLE_SHARED`](#enable_shared--enable_static)             | 1.2.0 | `BOOL`    | ON         | Enables building SRT as a shared library  |
 | [`ENABLE_SHOW_PROJECT_CONFIG`](#enable_show_project_config)  | 1.5.0 | `BOOL`    | OFF        | When ON, the project configuration is displayed at the end of the CMake Configuration Step.  |
-| [`ENABLE_STATIC`](#enable_shared--enable_static)             | 1.3.0 | `BOOL`    | ON         | Enables building SRT as a tatic library  |
+| [`ENABLE_STATIC`](#enable_shared--enable_static)             | 1.3.0 | `BOOL`    | ON         | Enables building SRT as a static library  |
 | [`ENABLE_STDCXX_SYNC`](#enable_stdcxx_sync)                  | 1.4.2 | `BOOL`    | ON*        | Enables the standard C++11 `thread` and `chrono` libraries to be used by SRT instead of the `pthreads`.  |
 | [`ENABLE_TESTING`](#enable_testing)                          | 1.3.0 | `BOOL`    | OFF        | Enables compiling of developer testing applications (srt-test-live, etc.).  |
 | [`ENABLE_THREAD_CHECK`](#enable_thread_check)                | 1.3.0 | `BOOL`    | OFF        | Enables `#include <threadcheck.h>`, which implements `THREAD_*` macros" to  support better thread debugging.  |
